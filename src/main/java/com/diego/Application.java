@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 
 public class Application {
     static final Logger logger = Logger.getLogger(Application.class.getName());
+    static final Scanner cin = new Scanner(System.in);
     GestorDeCentros centros = new GestorDeCentros();
     public String reverseString(String input){
 
@@ -17,21 +18,21 @@ public class Application {
 
         return new String(result);
     }
-    void startMenu(){
-        Scanner cin = new Scanner(System.in);
+    public String startMenu(String[] args){
         logger.info("Ingrese nombre de usuario: ");
         String nombreUsuario = cin.nextLine();
         logger.info("Ingrese contraseña: ");
         String contrasena = cin.nextLine();
 
         if(!nombreUsuario.equals(reverseString(contrasena)))
-            startMenu();
+            startMenu(args);
         else
-            mainMenu();
+        return  mainMenu();
+
+        return "correct";
     }
 
-    void mainMenu(){
-        Scanner cin = new Scanner(System.in);
+    public String mainMenu(){
         logger.info("""
                 ===================Main Menu ==================== 
                 1) Obtener información consolidada 
@@ -40,7 +41,10 @@ public class Application {
                 4) Cerrar sesión 
                 
                 Ingresar opción:""");
-        int option = cin.nextInt();
+
+        int option = Integer.parseInt(cin.nextLine());
+
+
         switch(option){
             case 1:
                 centros.informacionConsolidada();
@@ -55,12 +59,12 @@ public class Application {
                 mainMenu();
                 break;
             case 4:
-                startMenu();
-                break;
+                return "correct";
             default:
                 logger.info("Elija una de las opciones listadas... ");
                 mainMenu();
                 break;
         }
+        return "fail";
     }
 }
