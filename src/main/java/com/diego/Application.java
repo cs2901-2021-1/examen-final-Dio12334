@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 
 public class Application {
     static final Logger logger = Logger.getLogger(Application.class.getName());
+    GestorDeCentros centros = new GestorDeCentros();
     public String reverseString(String input){
 
         byte[] strAsByteArray = input.getBytes();
@@ -32,22 +33,25 @@ public class Application {
     void mainMenu(){
         Scanner cin = new Scanner(System.in);
         logger.info("""
-                ===================Main Menu ==================== \n
-                1) Obtener información consolidada \n
-                2) Dar de Alta a centro de vacunación \n
-                3) Dar de Baja a centro de vacunación \n
-                4) Cerrar sesión \n
-                \n
+                ===================Main Menu ==================== 
+                1) Obtener información consolidada 
+                2) Dar de Alta a centro de vacunación 
+                3) Dar de Baja a centro de vacunación 
+                4) Cerrar sesión 
+                
                 Ingresar opción:""");
         int option = cin.nextInt();
         switch(option){
             case 1:
+                centros.informacionConsolidada();
                 mainMenu();
                 break;
             case 2:
+                centros.addCentro();
                 mainMenu();
                 break;
             case 3:
+                centros.removeCentro();
                 mainMenu();
                 break;
             case 4:

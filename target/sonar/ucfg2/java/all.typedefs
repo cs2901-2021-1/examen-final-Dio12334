@@ -15,7 +15,9 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()Iê
+hashCode()java.lang.Object#hashCode()IL
+com.diego.Centrojava.lang.Object&
+<init>()com.diego.Centro#<init>()Vê
 com.diego.Mainjava.lang.Object$
 <init>()com.diego.Main#<init>()VF
 main([Ljava/lang/String;))com.diego.Main#main([Ljava/lang/String;)V™
@@ -374,4 +376,151 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 @entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Zjava.util.logging.Logger#entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)VN
 info(Ljava/lang/String;)2java.util.logging.Logger#info(Ljava/lang/String;)Vx
 -exiting(Ljava/lang/String;Ljava/lang/String;)Gjava.util.logging.Logger#exiting(Ljava/lang/String;Ljava/lang/String;)V®
-Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V£
+com.diego.GestorDeCentrosjava.lang.Object5
+addCentro()&com.diego.GestorDeCentros#addCentro()V/
+<init>()#com.diego.GestorDeCentros#<init>()V;
+removeCentro())com.diego.GestorDeCentros#removeCentro()VO
+informacionConsolidada()3com.diego.GestorDeCentros#informacionConsolidada()V÷
+java.lang.Iterablejava.lang.Objectd
+&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
+spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
+java.util.Collectionjava.lang.Objectjava.lang.IterableJ
+spliterator()9java.util.Collection#spliterator()Ljava/util/Spliterator;j
+(removeIf(Ljava/util/function/Predicate;)>java.util.Collection#removeIf(Ljava/util/function/Predicate;)ZR
+parallelStream()>java.util.Collection#parallelStream()Ljava/util/stream/Stream;~
+)toArray(Ljava/util/function/IntFunction;)Qjava.util.Collection#toArray(Ljava/util/function/IntFunction;)[Ljava/lang/Object;B
+stream()6java.util.Collection#stream()Ljava/util/stream/Stream;Æ
+java.util.Listjava.util.Collectionjava.lang.ObjectÕ
+îof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≥java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Q
+of([Ljava/lang/Object;)6java.util.List#of([Ljava/lang/Object;)Ljava/util/List;O
+of(Ljava/lang/Object;)5java.util.List#of(Ljava/lang/Object;)Ljava/util/List;Ñ
+pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)èjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ï
+∏of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)◊java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;+
+of()#java.util.List#of()Ljava/util/List;p
+.replaceAll(Ljava/util/function/UnaryOperator;)>java.util.List#replaceAll(Ljava/util/function/UnaryOperator;)Vó
+:of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Yjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Ò
+¶of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≈java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ﬂ
+^of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)}java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;©
+Çof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)°java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;D
+spliterator()3java.util.List#spliterator()Ljava/util/Spliterator;s
+(of(Ljava/lang/Object;Ljava/lang/Object;)Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;L
+sort(Ljava/util/Comparator;),java.util.List#sort(Ljava/util/Comparator;)Vª
+Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;_
+copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;*
+java.util.RandomAccessjava.lang.Object'
+java.lang.Cloneablejava.lang.Object†
+
+java.util.AbstractCollectionjava.util.Collectionjava.lang.Objecth
+#containsAll(Ljava/util/Collection;)Ajava.util.AbstractCollection#containsAll(Ljava/util/Collection;)Z4
+	isEmpty()'java.util.AbstractCollection#isEmpty()Z^
+addAll(Ljava/util/Collection;)<java.util.AbstractCollection#addAll(Ljava/util/Collection;)ZG
+
+toString()9java.util.AbstractCollection#toString()Ljava/lang/String;d
+!removeAll(Ljava/util/Collection;)?java.util.AbstractCollection#removeAll(Ljava/util/Collection;)ZV
+remove(Ljava/lang/Object;)8java.util.AbstractCollection#remove(Ljava/lang/Object;)ZF
+	toArray()9java.util.AbstractCollection#toArray()[Ljava/lang/Object;l
+toArray([Ljava/lang/Object;)Ljava.util.AbstractCollection#toArray([Ljava/lang/Object;)[Ljava/lang/Object;Z
+contains(Ljava/lang/Object;):java.util.AbstractCollection#contains(Ljava/lang/Object;)Zd
+!retainAll(Ljava/util/Collection;)?java.util.AbstractCollection#retainAll(Ljava/util/Collection;)Z†
+6finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)fjava.util.AbstractCollection#finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)[Ljava/lang/Object;2
+<init>()&java.util.AbstractCollection#<init>()VP
+add(Ljava/lang/Object;)5java.util.AbstractCollection#add(Ljava/lang/Object;)Z0
+clear()%java.util.AbstractCollection#clear()V±
+java.util.AbstractListjava.util.Listjava.util.AbstractCollectionP
+equals(Ljava/lang/Object;)2java.util.AbstractList#equals(Ljava/lang/Object;)Z:
+removeRange(II)'java.util.AbstractList#removeRange(II)VZ
+addAll(ILjava/util/Collection;)7java.util.AbstractList#addAll(ILjava/util/Collection;)ZL
+add(ILjava/lang/Object;)0java.util.AbstractList#add(ILjava/lang/Object;)VA
+subList(II)2java.util.AbstractList#subList(II)Ljava/util/List;O
+listIterator()=java.util.AbstractList#listIterator()Ljava/util/ListIterator;Z
+lastIndexOf(Ljava/lang/Object;)7java.util.AbstractList#lastIndexOf(Ljava/lang/Object;)I?
+	remove(I)2java.util.AbstractList#remove(I)Ljava/lang/Object;R
+indexOf(Ljava/lang/Object;)3java.util.AbstractList#indexOf(Ljava/lang/Object;)I0
+
+hashCode()"java.util.AbstractList#hashCode()IC
+
+iterator()5java.util.AbstractList#iterator()Ljava/util/Iterator;,
+<init>() java.util.AbstractList#<init>()V]
+set(ILjava/lang/Object;)Ajava.util.AbstractList#set(ILjava/lang/Object;)Ljava/lang/Object;H
+subListRangeCheck(III).java.util.AbstractList#subListRangeCheck(III)VQ
+listIterator(I)>java.util.AbstractList#listIterator(I)Ljava/util/ListIterator;B
+rangeCheckForAdd(I)+java.util.AbstractList#rangeCheckForAdd(I)VO
+outOfBoundsMsg(I):java.util.AbstractList#outOfBoundsMsg(I)Ljava/lang/String;J
+add(Ljava/lang/Object;)/java.util.AbstractList#add(Ljava/lang/Object;)Z*
+clear()java.util.AbstractList#clear()V÷&
+java.util.Vectorjava.util.RandomAccessjava.util.Listjava.lang.Cloneablejava.util.AbstractListjava.io.SerializableJ
+equals(Ljava/lang/Object;),java.util.Vector#equals(Ljava/lang/Object;)Z\
+#containsAll(Ljava/util/Collection;)5java.util.Vector#containsAll(Ljava/util/Collection;)Z4
+removeRange(II)!java.util.Vector#removeRange(II)V:
+removeElementAt(I)$java.util.Vector#removeElementAt(I)VX
+!removeAll(Ljava/util/Collection;)3java.util.Vector#removeAll(Ljava/util/Collection;)ZJ
+remove(Ljava/lang/Object;),java.util.Vector#remove(Ljava/lang/Object;)ZI
+listIterator()7java.util.Vector#listIterator()Ljava/util/ListIterator;:
+	toArray()-java.util.Vector#toArray()[Ljava/lang/Object;X
+!setElementAt(Ljava/lang/Object;I)3java.util.Vector#setElementAt(Ljava/lang/Object;I)V(
+	<init>(I)java.util.Vector#<init>(I)VV
+ lastIndexOf(Ljava/lang/Object;I)2java.util.Vector#lastIndexOf(Ljava/lang/Object;I)Ib
+&forEach(Ljava/util/function/Consumer;)8java.util.Vector#forEach(Ljava/util/function/Consumer;)VP
+copyInto([Ljava/lang/Object;)/java.util.Vector#copyInto([Ljava/lang/Object;)V&
+<init>()java.util.Vector#<init>()V3
+get(I))java.util.Vector#get(I)Ljava/lang/Object;d
+'readObject(Ljava/io/ObjectInputStream;)9java.util.Vector#readObject(Ljava/io/ObjectInputStream;)V$
+clear()java.util.Vector#clear()VF
+add(ILjava/lang/Object;)*java.util.Vector#add(ILjava/lang/Object;)V(
+	isEmpty()java.util.Vector#isEmpty()ZA
+lastElement()0java.util.Vector#lastElement()Ljava/lang/Object;;
+subList(II),java.util.Vector#subList(II)Ljava/util/List;;
+
+toString()-java.util.Vector#toString()Ljava/lang/String;T
+lastIndexOf(Ljava/lang/Object;)1java.util.Vector#lastIndexOf(Ljava/lang/Object;)Il
++add(Ljava/lang/Object;[Ljava/lang/Object;I)=java.util.Vector#add(Ljava/lang/Object;[Ljava/lang/Object;I)VL
+indexOf(Ljava/lang/Object;)-java.util.Vector#indexOf(Ljava/lang/Object;)I.
+trimToSize()java.util.Vector#trimToSize()VN
+indexOf(Ljava/lang/Object;I).java.util.Vector#indexOf(Ljava/lang/Object;I)I^
+$insertElementAt(Ljava/lang/Object;I)6java.util.Vector#insertElementAt(Ljava/lang/Object;I)V*
+
+<init>(II)java.util.Vector#<init>(II)VW
+set(ILjava/lang/Object;);java.util.Vector#set(ILjava/lang/Object;)Ljava/lang/Object;*
+
+capacity()java.util.Vector#capacity()ID
+add(Ljava/lang/Object;))java.util.Vector#add(Ljava/lang/Object;)Z5
+clone()*java.util.Vector#clone()Ljava/lang/Object;R
+<init>(Ljava/util/Collection;)0java.util.Vector#<init>(Ljava/util/Collection;)Vd
+'shiftTailOverGap([Ljava/lang/Object;II)9java.util.Vector#shiftTailOverGap([Ljava/lang/Object;II)V8
+ensureCapacity(I)#java.util.Vector#ensureCapacity(I)VC
+elementData(I)1java.util.Vector#elementData(I)Ljava/lang/Object;,
+setBit([JI)java.util.Vector#setBit([JI)V6
+grow(I)+java.util.Vector#grow(I)[Ljava/lang/Object;`
+toArray([Ljava/lang/Object;)@java.util.Vector#toArray([Ljava/lang/Object;)[Ljava/lang/Object;9
+	remove(I),java.util.Vector#remove(I)Ljava/lang/Object;N
+contains(Ljava/lang/Object;).java.util.Vector#contains(Ljava/lang/Object;)Zj
+*bulkRemove(Ljava/util/function/Predicate;)<java.util.Vector#bulkRemove(Ljava/util/function/Predicate;)Z*
+
+hashCode()java.util.Vector#hashCode()IR
+addElement(Ljava/lang/Object;)0java.util.Vector#addElement(Ljava/lang/Object;)Vf
+(removeIf(Ljava/util/function/Predicate;):java.util.Vector#removeIf(Ljava/util/function/Predicate;)ZX
+!removeElement(Ljava/lang/Object;)3java.util.Vector#removeElement(Ljava/lang/Object;)Z?
+elementAt(I)/java.util.Vector#elementAt(I)Ljava/lang/Object;N
+sort(Ljava/util/Comparator;).java.util.Vector#sort(Ljava/util/Comparator;)VK
+listIterator(I)8java.util.Vector#listIterator(I)Ljava/util/ListIterator;e
+elementAt([Ljava/lang/Object;I)Bjava.util.Vector#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;8
+checkInvariants()#java.util.Vector#checkInvariants()VT
+addAll(ILjava/util/Collection;)1java.util.Vector#addAll(ILjava/util/Collection;)ZR
+addAll(Ljava/util/Collection;)0java.util.Vector#addAll(Ljava/util/Collection;)Z<
+removeAllElements()%java.util.Vector#removeAllElements()V4
+grow()*java.util.Vector#grow()[Ljava/lang/Object;C
+firstElement()1java.util.Vector#firstElement()Ljava/lang/Object;r
+.replaceAll(Ljava/util/function/UnaryOperator;)@java.util.Vector#replaceAll(Ljava/util/function/UnaryOperator;)V@
+
+elements()2java.util.Vector#elements()Ljava/util/Enumeration;X
+!retainAll(Ljava/util/Collection;)3java.util.Vector#retainAll(Ljava/util/Collection;)Z'
+nBits(I)java.util.Vector#nBits(I)[J=
+
+iterator()/java.util.Vector#iterator()Ljava/util/Iterator;F
+spliterator()5java.util.Vector#spliterator()Ljava/util/Spliterator;*
+
+setSize(I)java.util.Vector#setSize(I)V.
+isClear([JI)java.util.Vector#isClear([JI)Zh
+)writeObject(Ljava/io/ObjectOutputStream;);java.util.Vector#writeObject(Ljava/io/ObjectOutputStream;)V"
+size()java.util.Vector#size()I

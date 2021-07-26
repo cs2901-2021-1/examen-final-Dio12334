@@ -1,4 +1,5 @@
 import com.diego.Application;
+import com.diego.GestorDeCentros;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -21,5 +22,13 @@ public class ApplicationTest {
         System.setIn(in);
 
         assertEquals("5 dda", prueba.reverseString(input));
+    }
+    @Test
+    void test2(){
+        GestorDeCentros prueba = new GestorDeCentros();
+        var inicio = System.currentTimeMillis();
+        prueba.informacionConsolidada();
+        var termino = System.currentTimeMillis();
+        assert ((termino - inicio) <= 2000);
     }
 }
